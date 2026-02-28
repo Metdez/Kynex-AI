@@ -1,0 +1,40 @@
+export const mockDashboard = {
+  kpis: {
+    costPerBookedCall: { value: 185, trend: 'down', trendValue: '-8%' },
+    showRate: { value: 72, trend: 'up', trendValue: '+5%' },
+    closeRate: { value: 28, trend: 'up', trendValue: '+3%' },
+    monthlyRevenue: { value: 245000, trend: 'up', trendValue: '+12%' },
+    pipelineValue: { value: 1200000, trend: 'up', trendValue: '+18%' },
+  },
+  channelPerformance: [
+    { channel: 'Facebook/Instagram', spend: 8200, cpl: 175, bookedCalls: 32, icon: 'facebook' },
+    { channel: 'Google Ads', spend: 5400, cpl: 195, bookedCalls: 21, icon: 'google' },
+    { channel: 'Voice Agent', callsMade: 245, answerRate: 43, bookingRate: 31, icon: 'phone' },
+    { channel: 'SMS/Email', messagesSent: 1840, responseRate: 28, bookingRate: 12, icon: 'message' },
+  ],
+  weeklySpendData: [
+    { day: 'Mon', spend: 1850, leads: 8 },
+    { day: 'Tue', spend: 2100, leads: 11 },
+    { day: 'Wed', spend: 1950, leads: 9 },
+    { day: 'Thu', spend: 2300, leads: 14 },
+    { day: 'Fri', spend: 2050, leads: 10 },
+    { day: 'Sat', spend: 1200, leads: 6 },
+    { day: 'Sun', spend: 900, leads: 4 },
+  ],
+  funnelData: [
+    { stage: 'New Lead', count: 142, conversionRate: null },
+    { stage: 'Contacted', count: 98, conversionRate: 69 },
+    { stage: 'Call Booked', count: 68, conversionRate: 69 },
+    { stage: 'Call Completed', count: 49, conversionRate: 72 },
+    { stage: 'Proposal', count: 22, conversionRate: 45 },
+    { stage: 'Closed Won', count: 14, conversionRate: 64 },
+  ],
+  aiBriefing: 'This week your Facebook campaigns outperformed Google Ads by 22% on cost-per-booked-call ($165 vs $195). The "Your Dream Kitchen Awaits" creative continues to be your top performer with a 3.2% CTR, though it\'s showing early signs of fatigue — I\'d recommend refreshing the creative within the next 7 days. Your voice agent booked 14 calls this week with a 31% booking rate, up from 26% last week after the script optimization. Three high-value prospects are in the proposal stage totaling $122K in potential revenue. I recommend focusing follow-ups on James Thompson ($45K) who\'s reviewing his proposal this weekend. Overall pipeline is healthy at $1.2M with strong momentum heading into March.',
+  recentClosedDeals: [
+    { contactName: 'Steve Martinez', value: 38000, touchpoints: ['Facebook Ad', 'Landing Page', 'Voice Call', 'SMS Follow-up', 'Consultation', 'Closed Won'] },
+    { contactName: 'Lisa Patel', value: 29000, touchpoints: ['Instagram Ad', 'Landing Page', 'Voice Call', 'Email Sequence', 'Consultation', 'Closed Won'] },
+    { contactName: 'Mark Reynolds', value: 42000, touchpoints: ['Google Ad', 'Landing Page', 'Voice Call', 'SMS', 'Consultation', 'Closed Won'] },
+    { contactName: 'Emily Chen', value: 35000, touchpoints: ['Facebook Ad', 'Voice Call', 'Email', 'Call Booked', 'Consultation', 'Closed Won'] },
+    { contactName: 'Jason Wright', value: 31000, touchpoints: ['Instagram Ad', 'Landing Page', 'Form Fill', 'Voice Call', 'Consultation', 'Closed Won'] },
+  ],
+};
