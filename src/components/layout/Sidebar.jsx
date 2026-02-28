@@ -44,10 +44,10 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="h-16 flex items-center px-6 border-b border-slate-800">
         <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0 shadow-sm">
-          G
+          K
         </div>
         {!sidebarCollapsed && (
-          <span className="ml-3 font-semibold text-lg tracking-tight">GrowthPilot</span>
+          <span className="ml-3 font-semibold text-lg tracking-tight">Kynex AI</span>
         )}
       </div>
 
