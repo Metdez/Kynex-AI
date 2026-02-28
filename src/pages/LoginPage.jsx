@@ -12,8 +12,8 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 flex items-center justify-center">
-      <div className="bg-white rounded-xl shadow-lg border border-slate-200 p-10 w-full max-w-sm text-center">
+    <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center">
+      <div className="bg-white rounded-xl shadow-lg border border-slate-200 p-10 w-full max-w-sm text-center mb-8">
         {/* Logo */}
         <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
           K
@@ -37,6 +37,10 @@ export default function LoginPage() {
           <Linkedin size={18} />
           Developed by Zack Hanna
         </a>
+      </div>
+
+      <div className="text-2xl font-bold text-slate-400 tracking-wide mt-4">
+        Agentic Growth
       </div>
     </div>
   );
