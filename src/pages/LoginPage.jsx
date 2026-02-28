@@ -13,6 +13,12 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center">
+      <div className="text-center max-w-lg mb-8 px-4">
+        <h2 className="text-2xl font-bold text-slate-800">
+          To help great businesses reach the people they were built to serve
+        </h2>
+      </div>
+
       <div className="bg-white rounded-xl shadow-lg border border-slate-200 p-10 w-full max-w-sm text-center mb-8">
         {/* Logo */}
         <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
