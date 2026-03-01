@@ -234,7 +234,7 @@ export default function ApprovalQueuePage() {
     <div className="max-w-6xl mx-auto pb-12">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-semibold text-slate-900">Approval Queue</h1>
+        <h1 className="text-2xl font-semibold text-slate-900">AI Approval Queue</h1>
         <div className="text-sm font-medium text-slate-500">
           <span className="text-slate-900 font-bold">{queueItems.length}</span> items waiting
         </div>
