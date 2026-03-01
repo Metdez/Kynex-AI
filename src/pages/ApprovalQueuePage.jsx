@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { mockApprovalQueue } from '../data/mockApprovalQueue';
 import StatusBadge from '../components/shared/StatusBadge';
 import ApprovalActions from '../components/shared/ApprovalActions';
-import { ChevronDown, ChevronUp, AlertCircle, Clock, Trash2, CheckSquare } from 'lucide-react';
+import { ChevronDown, ChevronUp, AlertCircle, Clock, Trash2, CheckSquare, Bot } from 'lucide-react';
 
 const TABS = ['All', 'Ads', 'Landing Pages', 'Scripts', 'Sequences', 'Urgent'];
 
@@ -343,7 +343,7 @@ export default function ApprovalQueuePage() {
                       </div>
                       <h3 className="font-semibold text-sm text-slate-900 mb-1 leading-tight">{item.title}</h3>
                       <div className="flex gap-2 items-start mt-2">
-                        <div className="text-indigo-400 mt-0.5"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Anthropic_logo.svg" alt="AI" className="w-3.5 h-3.5 opacity-60" /></div>
+                        <div className="text-indigo-500 mt-0.5"><Bot size={14} /></div>
                         <p className="text-xs text-slate-600 line-clamp-2 leading-snug">
                           {item.aiReasoning}
                         </p>
@@ -391,7 +391,7 @@ export default function ApprovalQueuePage() {
                   <div className="border-t border-slate-100 bg-slate-50 px-4 pb-4 pt-4 md:ml-12 md:mr-4 rounded-b-lg">
                     {/* Full Reason Text */}
                     <div className="text-xs text-slate-700 mb-4 bg-white p-3 rounded border border-slate-200 leading-relaxed">
-                      <span className="font-semibold text-slate-900 block mb-1 flex items-center gap-1.5"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Anthropic_logo.svg" alt="AI" className="w-3.5 h-3.5" /> Full AI Reasoning:</span>
+                      <span className="font-semibold text-slate-900 block mb-1 flex items-center gap-1.5"><Bot size={14} className="text-indigo-500" /> Full AI Reasoning:</span>
                       {item.aiReasoning}
                     </div>
 
