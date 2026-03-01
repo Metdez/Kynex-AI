@@ -21,8 +21,8 @@ export default function LoginPage() {
 
       <div className="bg-white rounded-2xl shadow-xl border border-slate-200 p-10 w-full max-w-md text-center mb-8">
         {/* Logo */}
-        <div className="flex justify-center mb-2 py-4">
-          <img src="/kynex-logo.png" alt="Kynex AI Logo" className="h-20 w-auto object-contain" />
+        <div className="flex justify-center items-center h-28 w-full relative overflow-hidden mb-2 rounded-t-2xl">
+          <img src="/kynex-logo.png" alt="Kynex AI Logo" className="absolute h-[320px] max-w-none object-contain" />
         </div>
         <p className="text-sm text-slate-500 mb-8">Your AI Growth Co-Pilot</p>
 
