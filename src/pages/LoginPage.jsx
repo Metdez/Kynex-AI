@@ -19,12 +19,12 @@ export default function LoginPage() {
         </h2>
       </div>
 
-      <div className="bg-white rounded-xl shadow-lg border border-slate-200 p-10 w-full max-w-sm text-center mb-8">
+      <div className="bg-white rounded-2xl shadow-xl border border-slate-200 p-10 w-full max-w-md text-center mb-8">
         {/* Logo */}
-        <div className="flex justify-center mb-6">
-          <img src="/kynex-logo.png" alt="Kynex AI Logo" className="h-16 object-contain" />
+        <div className="flex justify-center mb-2 py-4">
+          <img src="/kynex-logo.png" alt="Kynex AI Logo" className="h-20 w-auto object-contain" />
         </div>
-        <p className="text-sm text-slate-500 mb-6">Your AI Growth Co-Pilot</p>
+        <p className="text-sm text-slate-500 mb-8">Your AI Growth Co-Pilot</p>
 
         <button
           onClick={handleLogin}
