@@ -43,9 +43,9 @@ export default function Sidebar() {
     <aside className={`fixed top-0 left-0 h-screen bg-slate-900 border-r border-slate-800 text-white flex flex-col transition-all duration-300 z-30 ${sidebarCollapsed ? 'w-20' : 'w-64'}`}>
       {/* Logo */}
       <div className="h-16 flex items-center justify-center px-4 border-b border-slate-800">
-        <div className={`bg-white rounded w-full flex items-center ${sidebarCollapsed ? 'justify-start px-2' : 'justify-center p-2'} h-10 overflow-hidden`}>
+        <div className={`w-full flex items-center ${sidebarCollapsed ? 'justify-start px-2' : 'justify-center'} h-10 overflow-hidden`}>
           <img
-            src="/kynex-logo.png"
+            src="/kynex-logo-light.png"
             alt="Kynex AI Logo"
             className={`object-contain ${sidebarCollapsed ? 'h-8 origin-left min-w-[100px] -ml-2' : 'h-10'}`}
           />
