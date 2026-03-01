@@ -21,10 +21,9 @@ export default function LoginPage() {
 
       <div className="bg-white rounded-xl shadow-lg border border-slate-200 p-10 w-full max-w-sm text-center mb-8">
         {/* Logo */}
-        <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-          K
+        <div className="flex justify-center mb-6">
+          <img src="/kynex-logo.png" alt="Kynex AI Logo" className="h-16 object-contain" />
         </div>
-        <h1 className="text-2xl font-bold text-slate-900 mb-1">Kynex AI</h1>
         <p className="text-sm text-slate-500 mb-6">Your AI Growth Co-Pilot</p>
 
         <button

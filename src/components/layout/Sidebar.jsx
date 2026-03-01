@@ -42,13 +42,14 @@ export default function Sidebar() {
   return (
     <aside className={`fixed top-0 left-0 h-screen bg-slate-900 border-r border-slate-800 text-white flex flex-col transition-all duration-300 z-30 ${sidebarCollapsed ? 'w-20' : 'w-64'}`}>
       {/* Logo */}
-      <div className="h-16 flex items-center px-6 border-b border-slate-800">
-        <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0 shadow-sm">
-          K
+      <div className="h-16 flex items-center justify-center px-4 border-b border-slate-800">
+        <div className={`bg-white rounded w-full flex items-center ${sidebarCollapsed ? 'justify-start px-2' : 'justify-center p-2'} h-10 overflow-hidden`}>
+          <img
+            src="/kynex-logo.png"
+            alt="Kynex AI Logo"
+            className={`object-contain ${sidebarCollapsed ? 'h-8 origin-left min-w-[100px] -ml-2' : 'h-10'}`}
+          />
         </div>
-        {!sidebarCollapsed && (
-          <span className="ml-3 font-semibold text-lg tracking-tight">Kynex AI</span>
-        )}
       </div>
 
       {/* Nav Items */}
